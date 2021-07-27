@@ -149,13 +149,16 @@ body
     display: inline;
     font-size: 20px;
 }
+#titre_filtre
+{margin-top: 15px;}
+
 .filtre_liste
 {
     display: inline-flex;
     list-style-type: none;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 0;
 
 }
 .filtre_boutton
@@ -191,6 +194,9 @@ body
     background: white;
     transition-duration: 0.30s;
 }
+.filtres
+{margin-top: 20px;}
+
 /*Info*/
 
 .info .fas
@@ -583,4 +589,275 @@ nav, main, .bloc_flexbetween
 .hauteur_lien_footer
 {
     height: 30px;
+}
+
+/*Responsive*/
+
+
+/* Smartphone*/
+
+@media screen and  (max-width: 800px) 
+
+/*hebergement et populaire*/
+{       
+.mobile_section_pop_hebergement
+{flex-direction: column-reverse;
+width: 100%;}
+
+    
+
+.bloc_pop
+{flex: none;
+width: 90%;
+margin-left: 0;
+padding: 5%;}
+
+
+
+.bloc_hebergement
+{flex: none;
+width: 90%;
+margin-right: 0;
+margin-top: 0;
+padding: 5%;}
+
+.bloc_1
+{flex-direction: column;
+margin-bottom: 0;}
+
+.bloc_2
+{flex-direction: column;
+margin-top: 0;}
+
+.bloc_hebergement
+{height: auto;}
+
+.fond_hebergement
+    {width: 100%;
+    margin-bottom: 15px;}
+
+.fond_white
+    {background-color: white;}
+
+.bloc_activite
+    {flex-direction: column;
+    height: auto;}
+
+.cube_activite
+    {width: 90%;
+    height: 200px;   
+    margin-bottom: 25px;}
+
+.bloc_activites
+    {width: 90%;
+    height: auto;}   
+    
+
+.cube_activites
+    {width: 100%;
+    height: 200px;     
+    margin-bottom: 25px;}
+
+.image_act1,.image_act2,.image_act3,.image_act4,.image_act5,.image_act6
+    {height: 200px;}
+
+.taille_du_bloc_populaire
+
+    {height: 625px;
+    border-radius: 0;}
+
+.cube_activite:hover
+
+    {cursor: pointer;
+    transform: scale(1.1);}
+
+    .cube_activites:hover
+
+    {cursor: pointer;
+    transform: scale(1.1);}
+
+.margin_responsive
+
+    {margin-left: 15px;}
+
+    
+
+
+/*Footer*/
+
+.footer
+    {flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 30px;
+    margin-top: 0}
+
+.marge_bloc1
+    {margin-left: 0;}
+
+main
+    {margin: 0;}
+    
+/*Info*/
+
+.info
+{display: flex;
+align-items: baseline;
+margin-left: 15px;}
+
+/*Filtre*/
+
+.filtre_liste
+{padding: 10px;}
+
+.filtre_responsive
+{display: inline-flex;}
+
+.filtre_boutton
+{margin-top: 15px;
+margin-left: 0;}
+
+.marge_bouton_responsive
+{margin-left: 6px;}
+
+#titre_filtre
+{margin: 0;
+margin-left: 8px;}
+
+/*Champ de recherche*/
+.barre_de_recherche
+{position: relative;
+margin-top: 40px;
+margin-left: 12px;}
+
+.recherche
+{width: 240px;
+height: 49px;}
+
+#bouton_recherche
+
+{display: none;}
+
+#loupe
+
+{display: block;
+position: absolute;
+right: 30px;   
+border-radius: 20px;
+width: auto;}
+
+.bouton_recherche
+{width: 0;
+padding: 17px;}
+
+/*Titre trouvez votre hebergement*/
+
+.titre_h1
+{margin-left: 13px;
+font-size: 21px;
+margin-top: 30px;}
+
+.sous_titre_h1
+{margin-left: 13px;
+margin-top: 0;}
+
+ /*Navbar*/
+
+.espacement_responsive
+{display: flex;
+align-items: center;
+justify-content: space-around;
+height: 25px;
+margin-top: 15px;
+width: 100%;
+padding: 5px;
+border-bottom: #f2f2f2 solid 2px;}
+
+.position
+{position: absolute;
+top: 16px;
+right: -22px;}
+
+.none
+{display: block;}
+
+
+#photo_logo
+{margin-left: 15px;}
+
+
+.bordurenav
+{width: 50%;
+height: 36px;}
+
+nav
+{margin-left: 0;}
+
+
+
+.bordure_gris
+
+{border-bottom: #f2f2f2 solid 2px;}
+
+.bordure_bleue:hover
+{
+    border-bottom: solid 2px #0065fc;
+    cursor: pointer;
+    border-top: transparent;
+    
+}
+.bordure_bleue:hover > a
+{
+    color: #0065fc;
+    
+}
+.bordure_inscrire_responsive
+{
+    border-top: solid 2px transparent;
+}
+.bordure_inscrire_responsive:hover
+{
+    border-top: solid 2px #0065fc;
+    cursor: pointer;
+    border-bottom: transparent;
+    
+}
+.bordure_inscire_responsive:hover > a
+{
+    color: #0065fc;   
+}
+}
+
+/*Tablette*/
+/*hebergement et populaire*/
+
+@media screen and (max-width: 1240px) {
+
+.mobile_section_pop_hebergement
+{flex-direction: column-reverse;
+width: 100%;}  
+
+.bloc_pop
+{flex: none;
+width: 90%;
+margin-left: 0;
+padding: 5%;}    
+
+.bloc_hebergement
+{flex: none;
+width: 90%;
+margin-right: 0;
+margin-top: 0;
+padding: 5%;
+margin-top: 30px;}
+
+.marge_titre_pop
+{margin-bottom: 25px;
+margin-top: 0;}    
+}
+
+@media screen and (max-width:1010px) {
+
+.marge_filtre_responsive
+{margin-left: 75px;}    
 }
