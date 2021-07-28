@@ -147,10 +147,10 @@ body
 .titre_filtres
 {
     display: inline;
-    font-size: 20px;
 }
 #titre_filtre
-{margin-top: 15px;}
+{display: inline;
+font-size: 25px;}
 
 .filtre_liste
 {
@@ -168,9 +168,9 @@ body
     font-weight: 600;
     border-radius: 200px 200px 200px 200px;
     margin-left: 25px;
-    padding: 0 20px 0 0;
-    height: fit-content; 
-     
+    padding: 0 18px 0 0;
+    height: fit-content;
+
 }
 .inline_flex
 {display: inline-flex;}
@@ -621,13 +621,12 @@ margin-top: 30px;}
 margin-top: 0;}    
 }
 
-@media screen and (max-width:1010px) {
+@media screen and (max-width:940px) {
 
 #marge_filtre_responsive
-{margin-left: 75px;}    
+{margin-top: 15px;}
+
 }
-
-
 
 /* Smartphone*/
 
@@ -735,9 +734,6 @@ margin-left: 15px;}
 
 /*Filtre*/
 
-.filtre_liste
-{padding: 10px;}
-
 .filtre_responsive
 {display: inline-flex;}
 
@@ -757,7 +753,7 @@ margin-top: 30px;}
 {margin-left: 25px;}
 
 #marge_filtre_responsive
-{margin-left: 80px;}
+
 
 /*Champ de recherche*/
 .barre_de_recherche
@@ -861,20 +857,9 @@ color: #0065fc;
 }
 }
 @media screen and (max-width: 680px) {
-    #marge_filtre_responsive
-    {margin-left: 35px;}
-
-    #marge_filtre_responsive_romantique
-    {margin-left: 80px;}
-
+    
     #titre_filtre
     {margin-top: 30px;}
-}
-
-@media screen and (max-width : 570px) {
-    #marge_filtre_responsive
-    {margin-left: 80px;
-    margin-top: 30px;}
 }
 
 @media screen and (max-width :480px) {
@@ -884,4 +869,52 @@ color: #0065fc;
 
     #marge_filtre_responsive_romantique
     {margin-left: 25px;}
+}
+
+@media screen and (max-width : 460px) {
+    .titre_filtres
+    {margin-left: 8px;
+    margin-top: 25px;}
+
+    #titre_filtre
+    {margin: 0;}
+
+    #filtre_economique
+    {margin-left: 2px;}
+
+    #marge_filtre_responsive_romantique
+    {margin-left: 2px;}
+
+    #marge_filtre_responsive
+    
+
+    .filtre_liste
+    {margin: 0;}
+
+    .filtres
+    {margin-top: 20px;}
+
+    .info
+    {margin-top: 15px;}
+}
+@media screen and (max-width : 454px) {
+    #filtre_economique
+    {margin-left: 15px;}
+    #marge_filtre_responsive_romantique
+    {margin-left: 15px;}
+    #marge_filtre_responsive
+    {margin-left: 15px;}
+}
+
+@media screen and (max-width : 384px) {
+    #filtre_economique
+    {margin-left: 5px;}
+    #marge_filtre_responsive_romantique
+    {margin-left: 5px;}
+    #marge_filtre_responsive
+    {margin-left: 5px;}
+}
+@media screen and (max-width : 375px) {
+    #marge_filtre_responsive
+    {margin-left: 2px;}
 }
