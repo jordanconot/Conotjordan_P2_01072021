@@ -49,6 +49,9 @@ body
     height: 98px;
     
 }
+.marge_sinscrire
+{margin-left: -20px;}
+
 .bordure_bleue
 {
     border-top: solid 2px transparent;
