@@ -89,7 +89,7 @@ body
 
 .titre_h1
 {
-    font-size: 1em;
+    font-size: 23px;
     font-weight: 800;
 }
 .sous_titre_h1
@@ -440,7 +440,7 @@ font-size: 25px;}
 
 .marge_texte_prix
 {
-    margin: 5px;
+    margin: 7px;
 }
 .marge_etoiles
 {
