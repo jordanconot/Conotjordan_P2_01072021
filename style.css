@@ -34,6 +34,7 @@ body
 .bordure
 {
     height: 100px;
+    width: 94%;
 }
 .espacement
 {
@@ -784,6 +785,9 @@ width: auto;}
 {width: 0;
 padding: 17px;}
 
+.barre_de_recherche
+{margin-left: 12px;}
+
 /*Titre trouvez votre hebergement*/
 
 .titre_h1
@@ -810,7 +814,7 @@ border-bottom: #f2f2f2 solid 2px;}
 .position
 {position: absolute;
 top: 16px;
-right: -22px;}
+right: 5px;}
 
 .none
 {display: block;}
@@ -819,6 +823,8 @@ right: -22px;}
 #photo_logo
 {margin-left: 15px;}
 
+#width_sinscrire
+{width: 30%;}
 
 .bordurenav
 {width: 50%;
@@ -858,6 +864,8 @@ border-bottom: transparent;
 {
 color: #0065fc;   
 }
+.bordure
+{width: 99%;}
 }
 @media screen and (max-width: 680px) {
     
